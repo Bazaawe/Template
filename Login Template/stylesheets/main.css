@@ -1,0 +1,75 @@
+/***IMAGES***/
+.bgimg {  background-image: url(../img/rhombus.png); background-size: cover; 
+	width: 90em; height: 90em; background-repeat: no-repeat; }
+.logo { background-image: url(../img/logo2.png); width: 90em; height: 70em;  background-repeat: no-repeat; }
+
+.loginbtn { background-color: black; }
+.user-pic { background-image: url(../img/user2.png); width:2em; height: 1.9em; font-size: -2em; top: 0em; width: 100;}
+.padlock-pic { background-image: url(../img/padlock1.png); width:2em; height: 1.9em; font-size: -2em; top: 0em; width: 100; }
+@media screen and (max-width:764px)  
+{
+.bgimg {  background-image: url(../img/rhombus.png); background-size: cover; 
+	width: 70em; height: 60em; background-repeat: no-repeat; }
+}
+
+
+/***POSITION***/
+.bgimg { position: absolute; left: -33em; }
+form, .firstline, .secondline, .thirdline, .username, .password, .logo, .loginbtn, .user-pic, .padlock-pic, .reset { position: relative; }
+.thirdline, .username, .password {  top: 1em; }
+header, form {  left: 15.5em; top: 5em; }
+form { top: 7em; }
+.firstline	{top: 3em; left: 2.7em; font-size: 3em; }
+.secondline { top: 1.7em; left: 1.7em; }
+.thirdline { top: 5.5em; left: 4.4em; }
+.username { display: inline-block; top: 8em; left: -3.2em;}
+.password { top: 11em; left: -3.2em; }
+.logo { right: -31em;  top: -25em; }
+.loginbtn { left: 10em; top: 15em; }
+.user-pic { left: -9em; top: 18.6em; }
+.padlock-pic { left: -11em; top: 10em; }
+.reset {  }
+@media screen and (max-width:764px)  
+{
+.firstline	{top: 2em; left: 2em; font-size: 2em; }
+.secondline { top: 1em; left: 1em; }
+.thirdline { top: 4em; left: 3em; }
+.username {  top: 8em; left: -5em;}
+.password { top: 9em; left: -5em; }
+.reset { top: -20em; left: 3em; }
+.loginbtn { left: 2.5em; }
+.user-pic { left: -13em; top: 18.6em; }
+.padlock-pic { left: -13em; top: 21em; }
+}
+
+
+/***BACKGROUND***/
+body { overflow-x: hidden;	background-color: rgb(5, 247, 66); }
+.
+
+/***FONTS***/
+.firstline { font-family: cursive; font-size: 12em; }
+.secondline { font-family: cursive; font-size: 5em; }
+.thirdline { word-spacing: 1em; font-size: 2em;}
+.loginbtn  { color: white; font-size: 2em; font-weight: 900;}
+.username, .password { color: grey; font-size: 2em; font-weight: 900; text-align: right;}
+.reset { font-size: 2em; }
+@media screen and (max-width:764px)  
+{
+.secondline {font-size: 3.5em; }
+.thirdline { font-size: 1.5em; }
+.loginbtn  { color: white; font-size: 1.5em; font-weight: 500;}
+}
+
+/***SHAPE AND SIZE***/
+//section { width: 80%; height: 80%; }
+.loginbtn {width: 8em; height: 3.5em; border-radius: 3em;}
+.username, .password { border-bottom: solid 0.1em grey; border-right: 1em; }
+@media screen and (max-width:764px)  
+{
+.loginbtn {width: 6em; height: 2em; border-radius: 1.5em;}
+}
+
+/***COLORS***/
+.bgimg { filter: invert(91%) sepia(100%) saturate(16%) hue-rotate(236deg) brightness(106%) contrast(104%); color: green;}
+.logo {filter: invert(0%) sepia(96%) saturate(0%) hue-rotate(175deg) brightness(99%) contrast(102%); width: 100;}
