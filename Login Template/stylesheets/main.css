@@ -1,3 +1,6 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css";
+
 /***IMAGES***/
 .bgimg {  background-image: url(../img/rhombus.png); background-size: cover; 
 	width: 90em; height: 90em; background-repeat: no-repeat; }
@@ -17,15 +20,15 @@
 }
 /***POSITION***/
 .bgimg { position: absolute; left: -33em; }
-form, .firstline, .secondline, .thirdline, .username, .password, .logo, .loginbtn, .user-pic, .padlock-pic, .reset { position: relative; }
-.thirdline, .username, .password {  top: 1em; }
+form, .firstline, .secondline, .thirdline, .textbox, .textbox, .logo, .loginbtn, .user-pic, .padlock-pic, .reset { position: relative; }
+.thirdline, .textbox, .textbox {  top: 1em; }
 header, form {  left: 15.5em; top: 5em; }
 form { top: 7em; }
 .firstline	{top: 3em; left: 2.7em; font-size: 3em; }
 .secondline { top: 1.7em; left: 1.7em; }
 .thirdline { top: 5.5em; left: 4.4em; }
-.username { display: inline-block; top: 8em; left: -3.2em;}
-.password { top: 11em; left: -3.2em; }
+.textbox { display: inline-block; top: 7em; left: -3.2em;}
+//.textbox { top: 11em; left: -3.2em; }
 .logo { right: -45em;  top: -27em; }
 .loginbtn { left: 10em; top: 15em; }
 .user-pic { left: -9em; top: 18.6em; }
@@ -36,8 +39,8 @@ form { top: 7em; }
 .firstline	{top: 7em; left: 3.5em; font-size: 2em; }
 .secondline { top: 4em; left: 2em; }
 .thirdline { top: 9em; left: 3.5em; }
-.username {  top: 5.5em; left: -4em;}
-.password { top: 7em; left: -4em; }
+.textbox {  top: 5.5em; left: -4em;}
+.textbox { top: 7em; left: -4em; }
 .reset { top: -20em; left: 3em; }
 .loginbtn { left: 6.5em; top: 12em; }
 .logo { right: -28em;  top: -20em; }
@@ -56,20 +59,20 @@ body { overflow-x: hidden;	background-color: rgb(5, 247, 66); }
 .secondline { font-family: cursive; font-size: 5em; }
 .thirdline { word-spacing: 1em; font-size: 2em;}
 .loginbtn  { color: white; font-size: 2em; font-weight: 900;}
-.username, .password { color: grey; font-size: 2em; font-weight: 900; justify-content: center; align-items: center;}
+.textbox, .textbox { color: grey; font-size: 2em; font-weight: 900; justify-content: center; align-items: center;}
 .reset { font-size: 2em; }
 @media screen and (max-width:768px)  
 {
 .secondline {font-size: 3.5em; }
 .thirdline { font-size: 1.7em; }
-.username, .password { color: grey; font-size: 2em; font-weight: 500; text-align: right;}
+.textbox, .textbox { color: grey; font-size: 2em; font-weight: 500; }
 .loginbtn  { color: white; font-size: 1.5em; font-weight: 500;}
 }
 
 /***SHAPE AND SIZE***/
 //section { width: 80%; height: 80%; }
 .loginbtn {width: 8em; height: 3.5em; border-radius: 3em;}
-.username, .password { border-bottom: solid 0.1em grey; border-right: 1em; }
+.textbox, .textbox { border-bottom: solid 0.1em grey; border-right: 1em; }
 @media screen and (max-width:764px)  
 {
 .loginbtn {width: 6em; height: 2.5em; border-radius: 1.5em;}
@@ -80,7 +83,7 @@ body { overflow-x: hidden;	background-color: rgb(5, 247, 66); }
 .logo {filter: invert(0%) sepia(96%) saturate(0%) hue-rotate(175deg) brightness(99%) contrast(102%); width: 100;}
 
 /***ANIMATIONS***/
-//.username, .password :active { font-weight: 400; color: black; /*font-size: 4em;*/ }
-//.password :focus { font-weight: 400; color: black; }
-.username, .password :focus {color: black;}
+//.textbox, .textbox :active { font-weight: 400; color: black; /*font-size: 4em;*/ }
+//.textbox :focus { font-weight: 400; color: black; }
+.textbox, .textbox :focus {color: black;}
  
